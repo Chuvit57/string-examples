@@ -24,6 +24,7 @@ print(string1.strip('Ст'))  # Команда возвращает копию �
 
 # lstrip() возвращает копию строки с удаленными начальными символами.
 website = 'https://campus.datacamp.com '
+my_string = "I control github"
 print(website.lstrip('htps://'))
 
 # Метод rstrip() возвращает копию строки с удаленными конечными символами.
@@ -39,6 +40,8 @@ print(website.center(width, fill_char))
 print(website.center(width))
 print(b.center(width))
 print(b.center(width, '+'))
+print(my_string.center(width, '^'))
+
 
 # isnumeric() Возвращает флаг, указывающий на то, содержит ли строка только числа.
 print(b.isnumeric())
